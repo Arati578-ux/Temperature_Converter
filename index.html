@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="temperature-converter">
+        <h1 class="title">Temperature Converter App</h1>
+        <div class="result">
+            <h2 class="result-heading">Result (Celsius)</h2>
+            <p id="celsius" class="celsius-value"></p>
+        </div>
+        <div class="degree-field">
+            <label for="degree">Degrees</label>
+            <input id="degree" type="number" />
+        </div>
+        <div class="degree-type">
+            <label for="temp-type">Type</label>
+            <select id="temp-type">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+        <button id="convert-btn">Convert</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
